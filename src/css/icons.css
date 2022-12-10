@@ -1,0 +1,141 @@
+.language-item{
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+}
+.language-item:hover .language-icon{
+    transform: scale(1.2);
+    transition: transform 1s;
+
+}
+.language-icon{
+    width: 80px;
+    height: 80px;
+    padding: 12px;
+}
+.react{
+    border-bottom: 2px solid rgba(0, 216, 255, 0.72); 
+    box-shadow: rgba(0, 216, 255, 0.72) 0px 12px 11px -10px;
+}
+.javascript{
+    border-bottom: 2px solid rgba(247, 223, 30, 0.68); box-shadow: rgba(247, 223, 30, 0.68) 0px 12px 11px -10px;
+}
+.npm{
+    border-bottom: 2px solid rgba(203, 56, 55, 0.8); box-shadow: rgba(203, 56, 55, 0.8) 0px 12px 11px -10px;
+}
+.bootstrap{
+    border-bottom: 2px solid #7a12f8;
+    box-shadow: #7a12f8 0px 12px 11px -10px;
+}
+.html{
+    border-bottom:2px solid #E14E1D;
+    box-shadow: #E14E1D 0px 12px 11px -10px;
+}
+.css{
+    border-bottom:2px solid rgb(2, 119, 189);
+    box-shadow: rgb(2, 119, 189) 0px 12px 11px -10px;
+}
+.nodejs{
+    border-bottom:2px solid rgb(129, 205, 57);
+    box-shadow: rgb(129, 205, 57) 0px 12px 11px -10px;
+}
+.mongodb{
+    border-bottom:2px solid rgb(16, 170, 80);
+    box-shadow: rgb(16, 170, 80) 0px 12px 11px -10px;
+}
+.expressjs{
+    
+    border-bottom:2px solid rgb(255, 255, 255);
+    box-shadow: rgb(255, 255, 255) 0px 12px 11px -10px;
+}
+.firebase{
+    
+    border-bottom:2px solid #ffcc31;
+    box-shadow: #ffcc31 0px 12px 11px -10px;
+}
+.mysql{
+    border-bottom:2px solid #fff;
+    box-shadow: #fff 0px 12px 11px -10px;
+}
+/* OTRAS */
+/* git : #f03c2e */
+.java{
+    border-bottom:2px solid #f58219;
+    box-shadow: #f58219 0px 12px 11px -10px;
+}
+.python{
+    border-bottom:2px solid #2e5174;
+    box-shadow: #2e5174 0px 12px 11px -10px;
+}
+.c{
+    border-bottom:2px solid #3f82b4;
+    box-shadow: #3f82b4 0px 12px 11px -10px;
+}
+.cpp{
+    border-bottom:2px solid #394aab;
+    box-shadow: #394aab 0px 12px 11px -10px;
+}
+.git{
+    border-bottom:2px solid rgb(240, 60, 46);
+    box-shadow: rgb(240, 60, 46) 0px 12px 11px -10px;
+}
+.habilidades-contenedor{
+    gap: 12px;
+    flex-wrap: wrap;
+}
+#habilidades{
+    padding: 40px 40px 60px 40px;
+}
+
+/* .footer-main .redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+} */
+
+.footer{
+    text-align: center;
+    background-color: #0d0c11e7;
+    padding: 12px;
+    color: #fff;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 12px 0 12px;
+    flex-wrap: wrap;
+}
+.redes{
+    text-align: left;
+    min-width: 250px;
+}
+.redes li,
+.contacto li{
+    display: flex;
+    gap: 4px;
+}
+.contacto{
+    text-align: left;
+}
+.redes li a,
+.contacto li a{
+    text-decoration: none;
+    color: #fff;
+}
+.redes li:hover a,
+.contacto li:hover,
+.redes li:hover{
+        color: hsl(222deg 100% 61%);
+        color: hsl(222deg 100% 61%);
+}
+.contacto li:hover a{
+    color: hsl(222deg 100% 61%);
+    /* color: hsl(222deg 100% 61%); */
+}
+.footer-autor{
+    color:rgb(116, 116, 116);
+}
+a:visited{
+    color: #fff;
+}
